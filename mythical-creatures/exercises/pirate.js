@@ -5,9 +5,10 @@ class Pirate {
 		this.cursed = false;
 		this.counter = 0;
 		this.booty = 0;
+
 	}
 
-	commitHeinousAct(){
+	commitHeinousAct() {
 		this.counter++
 		if (this.counter >=3){
 			this.cursed = true;
@@ -16,23 +17,14 @@ class Pirate {
 
 	robShip() {
 		this.booty = 100;
-		return 'YAARRR!'
+		return 'YAARRR!';
 	}
 
 }
 
 
 
-
-
-
-
-
-
-
-
 module.exports = Pirate
-
 // npm test mythical-creatures/test/pirate-test.js
 // 
 

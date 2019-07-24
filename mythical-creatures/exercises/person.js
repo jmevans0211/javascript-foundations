@@ -1,10 +1,9 @@
-class Person{
+class Person {
 	constructor(name) {
 		this.name = name;
 		this.stoned = false;
+
 	}
-
-
 }
 
 
@@ -12,17 +11,31 @@ class Person{
 
 
 
-
-
-
-
-
-
-
-
-
-
 module.exports = Person
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

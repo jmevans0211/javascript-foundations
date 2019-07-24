@@ -1,17 +1,14 @@
-class Victim {
-	constructor(name) {
-		this.name = name;
-		this.alive = true;
+class Medusa {
+	constructor() {
+
+		
 	}
+
 }
 
 
-module.exports = Victim
 
 
+module.exports = Medusa
 
-
-
-
-
-// npm test mythical-creatures/test/werewolf-test.js
+// npm test mythical-creatures/test/medusa-test.js
